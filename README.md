@@ -1,5 +1,9 @@
 # Fibonacci as a Service
-This is a serverless app based on Spin which provides an API to calculate Fibonacci numbers.
+This is a serverless app based on [Spin](https://developer.fermyon.com/spin/index) a framework to build WebAssembly components. 
+This service provides an API to calculate Fibonacci numbers.
+```
+/fibonacci/:number
+```
 
 ## How to execute
 1. Install [Spin](https://developer.fermyon.com/spin/install)
